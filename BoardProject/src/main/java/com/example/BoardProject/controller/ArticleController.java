@@ -22,15 +22,12 @@ public class ArticleController {
 
     @PostMapping("/articles/create")
     public String createArticle(ArticleForm form) {
-        // System.out.println(form.toString());
         log.info(form.toString());
 
         Article article = form.toEntity();
-        // System.out.println(article.toString());
         log.info(article.toString());
 
         Article saved = articleRepository.save(article);
-        // System.out.println(saved.toString());
         log.info(saved.toString());
         return "";
     }
