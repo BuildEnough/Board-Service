@@ -9,8 +9,8 @@
 기간: 2023.11.24 ~ 2023.11.28  
 주요 기능: 게시글 생성/조회/수정/삭제와 댓글 생성/조회/수정/삭제  
 기술: Java, SpringBoot, Mustache, JavaScript, Lombok, REST API, SQL, HTML, Bootstrap  
-DB: H2 Database
-Packaging: Jar
+DB: H2 Database  
+Packaging: Jar  
 Dependencies: Spring Web, JPA, H2 Database, Mustache, Lombok
 
 <br>
