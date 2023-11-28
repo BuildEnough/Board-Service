@@ -116,4 +116,6 @@ INSERT INTO comment(article_id, nickname, body) VALUES(6, 'Choi', '독서');
 
 - JavaScript로 REST API를 사용하여 댓글 기능 구성함
 
+- 테스트 코드로 검증
+
 
