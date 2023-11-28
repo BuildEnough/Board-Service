@@ -114,8 +114,10 @@ INSERT INTO comment(article_id, nickname, body) VALUES(6, 'Choi', '독서');
 - 리팩토링 시 Controller와 Repository 사이에 서비스 계층을 만들어 역할을 분업하고
    트랜잭션을 적용하여 예외 상황이 발생하였을 때 ROLLBACK을 적용시킴
 
-- JavaScript로 REST API를 사용하여 댓글 기능 구성함
+- JavaScript로 REST API를 호출하고 응답처리(fetch() 함수 작성)
 
-- 테스트 코드로 검증
+- 테스트 코드로 예상 데이터와 실제 데이터 비교 검증
+
+- 테스트 케이스의 트랜잭션 처리(남은 데이터 처리, @Transactional)
 
 
